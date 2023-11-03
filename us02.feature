@@ -8,7 +8,7 @@ Feature: Plan de Aprendizaje
 
     Given el usuario puede ingresar a su perfil
     And el usuario agrega sus metas financieras en su perfil
-    When el usuario clickee en Guardar"
+    When el usuario clickee en "Guardar"
     Then la aplicación genera un plan de aprendizaje basado en las metas del usuario
 
     Examples: INPUT
