@@ -11,7 +11,6 @@ Feature: Configuración de metas
     When el usuario edite sus metas financieras
     Then la aplicación ajusta el plan de aprendizaje en función de las nuevas metas
 
-    //FALTA
     Examples: INPUT
 
         | Usuario  | Mi Perfil  | Modificar Metas Financieras |
