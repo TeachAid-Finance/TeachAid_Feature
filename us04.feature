@@ -11,14 +11,13 @@ Feature: Reseñas
     When el usuario clickee en "Más información" y luego en "Reseñas de Usuarios"
     Then la aplicación mostrará todas las reseñas creadas por los usuarios de la aplicación
     
-    //FALTA
     Examples: INPUT
 
-        | Usuario  | Mi Perfil  | Metas financieras |
-        | Usuario1 | Perfil 1 | Meta 1 |
-        | Usuario2 | Perfil 2 | Meta 2 |
-        | Usuario3 | Perfil 3 | Meta 3 |
+        | Usuario  | Más información | Reseñas de Usuarios |
+        | Usuario1 | Información 1 | Reseña 1 |
+        | Usuario2 | Información 2 | Reseña 2 |
+        | Usuario3 | Información 3 | Reseña 3 |
 
     Examples: OUTPUT
 
-        | mensaje de confirmación |
+        | mostrar reseñas |
